@@ -818,6 +818,10 @@ video {
   display: none;
 }
 
+.w-32{
+  width: 8rem;
+}
+
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -1793,6 +1797,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-blue-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2424,6 +2433,15 @@ video {
 
 .forced-color-adjust-none{
   forced-color-adjust: none;
+}
+
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity, 1));
+  font-family: Jost, sans-serif;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 340px){
