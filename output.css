@@ -1988,6 +1988,10 @@ video {
   font-family: Lobster, sans-serif;
 }
 
+.font-Jost{
+  font-family: Jost, sans-serif;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2523,6 +2527,16 @@ video {
   .xl\:bg-purple-400{
     --tw-bg-opacity: 1;
     background-color: rgb(192 132 252 / var(--tw-bg-opacity, 1));
+  }
+
+  .xl\:bg-blue-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
+  }
+
+  .xl\:bg-green-400{
+    --tw-bg-opacity: 1;
+    background-color: rgb(74 222 128 / var(--tw-bg-opacity, 1));
   }
 }
 
